@@ -168,9 +168,10 @@ class DecomposeResult(DecomposeResult):
                 width=1200,
                 height=700,
                 title={"x": 0.5, "xanchor": "center", "yanchor": "top"},
-                titlefont={"size": 20},
+                titlefont={"size": 30},
                 legend_title=None,
                 showlegend=False,
+                font=dict(size=18)
             )
             return fig
 
